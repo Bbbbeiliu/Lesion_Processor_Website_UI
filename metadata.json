@@ -1,0 +1,11 @@
+{
+  "name": "皮肤病灶轮廓处理系统",
+  "description": "专业版皮肤病灶图片掩膜轮廓提取、处理与排样系统。支持NURBS平滑、自动排样及激光切割模拟。",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "image-processing",
+    "cad-export"
+  ]
+}

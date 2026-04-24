@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+  --font-mono: "JetBrains Mono", ui-monospace;
+  
+  --color-brand-bg: #f1f5f9;
+  --color-brand-ink: #1e293b;
+  --color-brand-line: #e2e8f0;
+  --color-brand-accent: #3b82f6;
+  --color-brand-widget: #ffffff;
+  --color-brand-footer: #1e293b;
+}
+
+:root {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-ink);
+}
+
+body {
+  overflow: hidden;
+  font-family: var(--font-sans);
+}
+
+.canvas-grid {
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.cad-canvas {
+  background-color: #ffffff;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.param-slider {
+  accent-color: var(--color-brand-accent);
+}
